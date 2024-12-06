@@ -218,5 +218,5 @@ void ligaMotor(int v1, int a1, int b1, int v2, int a2, int b2)
   digitalWrite(Mlb1, b1);  	
   analogWrite(Vel_Motor2, v2);
   digitalWrite(Mla2, a2);
-  	digitalWrite(Mlb2, b2);
+  digitalWrite(Mlb2, b2);
 }
